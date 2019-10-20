@@ -1,0 +1,38 @@
+body {
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.table-container {
+  width: 60% !important;
+  margin-top: 50px;
+}
+
+.edit-button {
+  margin-right: 5px;
+}
+
+.add-button {
+  margin-left: 50%;
+}
+
+.cross-out {
+  text-decoration: line-through;
+}
+
+.hide {
+  display: none !important;
+}
+
+#add-task-text.hide {
+  display: none;
+}
+
+#add-task-text {
+  display: block;
+  margin: 0 auto;
+  width: 470px;
+}
